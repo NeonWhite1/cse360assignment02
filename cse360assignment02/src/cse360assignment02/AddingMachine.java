@@ -17,12 +17,12 @@ public class AddingMachine {
   
   public void add (int value) {
 	  total += value;
-	  history += " + " + "value";
+	  history += " + " + value;
   }
 
   public void subtract (int value) {
 	  total -= value;
-	  history += " - " + "value";
+	  history += " - " + value;
   }
 
   public String toString () {
