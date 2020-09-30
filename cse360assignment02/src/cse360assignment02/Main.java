@@ -6,5 +6,6 @@ public class Main{
 		calculator.add(1);
 		calculator.add(2);
 		calculator.subtract(5);
+		calculator.toString();
 	}
 }
